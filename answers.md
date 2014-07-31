@@ -14,9 +14,9 @@ benkarl@me.com
 3. > require 'dogapi'
 4. > dog = Dogapi::Client.new(my_api_key)
 5. > dog.emit_event(Dogapi::Event.new("Ben Karl submitting my first event as part of the support engineer code challenge"))
-    *Success! "id" => 2391716254316003247
+  *Success! "id" => 2391716254316003247
 6. > dog.emit_event(Dogapi::Event.new("@benkarl@me.com take a look see and check if this event shows up in your inbox"))
-    *Success again! "id" => 2391733691530939853 (Sending emails from the event message is really cool!)
+  *Success again! "id" => 2391733691530939853 (Sending emails from the event message is really cool!)
 
 ####Level 2:
 
